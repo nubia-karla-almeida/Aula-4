@@ -5,3 +5,6 @@ dados=read.csv("dados.csv", header=TRUE, sep=",")
 
 # Verificar frequência
 prop.table(table(dados$sexo))
+
+# Calculo de estatísticas descritivas de idade
+media=mean(dados$idade)
