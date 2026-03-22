@@ -9,4 +9,4 @@ prop.table(table(dados$sexo))
 # Calculo de estatísticas descritivas de idade
 media=mean(dados$idade)
 desv_pad=sd(dados$idade)
-
+summary(dados$idade)
