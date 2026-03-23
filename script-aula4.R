@@ -6,6 +6,9 @@ dados=read.csv("dados.csv", header=TRUE, sep=",")
 # Verificar frequência
 prop.table(table(dados$sexo))
 
+# Gráfico de barras para sexo
+barplot(table(dados$sexo))
+
 # Calculo de estatísticas descritivas de idade
 media=mean(dados$idade)
 desv_pad=sd(dados$idade)
